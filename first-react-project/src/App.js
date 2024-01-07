@@ -4,6 +4,7 @@ import './Profile'
 import Profile from './Profile';
 import ShoppingList from './ShoppingList';
 import MyButton from './MyButton';
+import TogetherCounters from './TogetherCounters'
 
 
 function App() {
@@ -23,8 +24,10 @@ function App() {
           Learn React
         </a>
         <MyButton />
+        <MyButton />
         <Profile />
         <ShoppingList />
+        <TogetherCounters/>
       </header>
     </div>
   );
